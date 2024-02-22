@@ -18,7 +18,6 @@ def decrypt_msg(encrypted_msg):
                 # Desencriptamos el caracter utilizando el desfase actual
                 position = (alphabet_inv[char] - offset) % 27
                 print("position:", position)
-                print
                 msg += alphabet[position]
             else:
                 msg += char
