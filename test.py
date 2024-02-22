@@ -21,7 +21,7 @@ def decrypt_msg(encrypted_msg):
                 print
                 msg += alphabet[position]
             else:
-                msg += char  # Add non-alphabetic characters unchanged
+                msg += char
                 
             print("msg:", msg)
         # Verificamos si el mensaje desencriptado contiene palabras comunes en inglés
